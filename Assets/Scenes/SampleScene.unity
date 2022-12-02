@@ -20,12 +20,12 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -159,7 +159,7 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.220425, g: 0.21867211, b: 0.24528301, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -712,6 +712,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhostCube
       objectReference: {fileID: 0}
+    - target: {fileID: 90124310488398291, guid: 8acc2fb1959f9d14ebe62daaf75146ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 836606917311120088, guid: 8acc2fb1959f9d14ebe62daaf75146ef,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fea6b5d330fbf5843ade8a2dce3e1760, type: 2}
     - target: {fileID: 4694430245143587109, guid: 8acc2fb1959f9d14ebe62daaf75146ef,
         type: 3}
       propertyPath: m_RootOrder
@@ -725,12 +735,12 @@ PrefabInstance:
     - target: {fileID: 4694430245143587109, guid: 8acc2fb1959f9d14ebe62daaf75146ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 4.34
       objectReference: {fileID: 0}
     - target: {fileID: 4694430245143587109, guid: 8acc2fb1959f9d14ebe62daaf75146ef,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 5.867
       objectReference: {fileID: 0}
     - target: {fileID: 4694430245143587109, guid: 8acc2fb1959f9d14ebe62daaf75146ef,
         type: 3}
