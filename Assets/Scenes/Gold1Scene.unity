@@ -523,6 +523,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 836606917311120088, guid: ab502a4e567fa2945bc4314a4bcd0e98,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4694430245143587109, guid: ab502a4e567fa2945bc4314a4bcd0e98,
         type: 3}
       propertyPath: m_RootOrder
@@ -602,6 +607,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1255095683674177803, guid: 76645600b62b8204fb0878ed66f346d3,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2950858105294544643, guid: 76645600b62b8204fb0878ed66f346d3,
         type: 3}
       propertyPath: m_Shadows.m_Type
